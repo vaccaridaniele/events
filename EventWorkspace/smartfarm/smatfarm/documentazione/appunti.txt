@@ -1,0 +1,48 @@
+POSTGRES TEST-EVENTS SU DOGADO
+ A new PostgreSQL server was added to your test-events PaaS environment.
+
+This server is exclusively for your use (not shared with other users), so all of its resources and power are under your control, including the ability to customise its configuration files via the dashboard.
+
+phpPgAdmin web administration interface:
+Access URL: https://postgres149745-test-events.jelastic.dogado.eu
+Login: webadmin
+Password: XDHlia17606
+
+Connect to PostgreSQL from your application code using the following details:
+Host: postgres149745-test-events.jelastic.dogado.eu
+Login: webadmin
+Password: XDHlia17606
+Database: (create it using phpPgAdmin above)
+
+Do not use localhost in your application code. PostgreSQL is on its own separate server so you must use postgres149745-test-events.jelastic.dogado.eu to connect.
+
+(Note: You should define a new restricted user via phpPgAdmin - only use webadmin for testing because this user has full administrative access to your server)
+Detailed guidance is available in the documentation.
+As always, we're here to help you if you have any problems, questions, concerns, or feedback. Reach our team at https://helpdesk.dogado.de/en
+
+TEST EVENT ENVIRONMENT
+test-events created
+ 
+Hello,
+ 
+DEPLOY YOUR APP
+
+Your Jelastic environment at http://test-events.jelastic.dogado.eu/ provides a collection of separate role-based servers created exclusively for you - no sharing with other users.
+
+All of their power and resources are for you only, and this means you also get to customise their configuration (via the dashboard) to suit your needs.
+
+Now it's time to deploy your applications and enjoy the unique benefits of our auto-scaling hosting platform.
+
+How do you prefer to deploy your code?
+
+Each server in your environment has automatic vertical scaling to deliver optimum value and performance with zero effort. You can also configure  vertical scaling limits to control your costs and  horizontal scaling triggers to boost your application capacity.
+
+Read our guides to learn how to:
+- Configure your servers
+- Share an environment with your colleagues
+- Use your own domain
+- Add a static public IP
+- Monitor your app's stats and get load notifications
+- View log files
+- Connect via SSH
+As always, we're here to help you if you have any problems, questions, concerns, or feedback. Reach our team at https://helpdesk.dogado.de/en

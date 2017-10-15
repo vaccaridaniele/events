@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:01:10 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 500 4254
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:02:04 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:02:34 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 400 402
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:03:13 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 400 402
+127.0.0.1 - - [20/Jun/2017:00:03:54 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:03:54 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 400 401
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:04:59 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 400 383
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:05:49 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2017:00:06:05 +0200] "POST /events/rest/eventscrapes HTTP/1.1" 201 -

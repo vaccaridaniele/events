@@ -1,0 +1,20 @@
+http://docs.python-requests.org/en/master/
+
+import requests
+import json
+
+'POST'
+headers = {'Content-Type': 'application/json'}
+url = 'http://localhost:8080/events/rest/eventscrapes'
+payload = {"eventDate": "data","title": "titolo da python","location": "location","details": "dettagli","eventTime": "orario"}
+r = requests.post(url, data=json.dumps(payload), headers=headers)
+print(r)
+
+
+'DELETE'
+r = requests.delete('http://localhost:8080/events/rest/eventscrapes/1')
+print(r)
+
+'PUT'
+r = requests.put('http://localhost:8080/events/rest/eventscrapes/1')
+print(r)

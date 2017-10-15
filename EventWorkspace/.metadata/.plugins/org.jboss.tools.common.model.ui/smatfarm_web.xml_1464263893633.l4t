@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/smatfarm/src/main/webapp/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp30">
+   <Memento collapsed="false" type="Deployment Descriptor"/>
+   <Memento collapsed="false" type="Context Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="FileWebApp">
+   <Memento type="Web Descriptor 2.3"/>
+   <Memento type="Context Params"/>
+   <Memento type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="WebAppFilter30">
+   <Memento collapsed="false" type="Filter"/>
+   <Memento collapsed="false" type="Init Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="WebAppFolderFilters30">
+   <Memento collapsed="false" type="Filters"/>
+   <Memento collapsed="false" type="Filter Mappings"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

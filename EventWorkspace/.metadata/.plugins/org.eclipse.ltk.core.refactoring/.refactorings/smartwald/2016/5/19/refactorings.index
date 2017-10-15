@@ -1,0 +1,31 @@
+1462893277898	Delete element
+1462893352814	Rename local variable 'hammerBlow'
+1462947909155	Copy file
+1462951301353	Move file
+1462952200195	Move file
+1462952235793	Move file
+1462952360263	Delete element
+1462959229381	Rename method 'getJndiConnection'
+1462960632969	Rename method 'getDataSourceConnection'
+1462969058309	Rename local variable 'particle'
+1462974380920	Rename type 'ErrorMessage'
+1462974422919	Rename field 'errorCode'
+1462974431320	Rename field 'documentation'
+1462974459672	Rename type 'Message'
+1462975390532	Delete element
+1462975575902	Rename type 'MymessageEndpoint'
+1462976250682	Rename type 'TestConnection'
+1463038903432	Rename type 'HibernateUtility'
+1463048397785	Delete elements
+1463059582435	Move compilation unit
+1463059586219	Move compilation unit
+1463124550991	Copy compilation units
+1463124595686	Copy files
+1463124761406	Copy file
+1463124924641	Copy compilation unit
+1463125784130	Delete element
+1463136072736	Rename local variable 'conn'
+1463137642441	Rename local variable 'lookup'
+1463143630445	Delete elements
+1463144670230	Rename local variable 'lookup'
+1463145822387	Rename local variable 'fpCosts'

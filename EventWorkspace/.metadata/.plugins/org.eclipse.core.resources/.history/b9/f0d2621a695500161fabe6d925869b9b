@@ -1,0 +1,39 @@
+package org.e2d.smartwald.rest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+
+import org.e2d.smartwald.pojo.FpForestStations;
+import org.e2d.smartwald.pojo.Heroes;
+import org.e2d.smartwald.util.ForestStationDb;
+
+@Path("/heroeses")
+@Produces("application/json")
+@Consumes("application/json")
+public class HeroesEndpoint {
+
+	/**
+	 * http://localhost:8080/smartwald/rest/foreststationses?offset=1&limit=5
+	 * @param offset
+	 * @param limit
+	 * @return
+	 */
+	@GET
+	public List<Heroes> listAll(@QueryParam("offset") final Integer offset,
+			@QueryParam("limit") final Integer limit) {
+		ArrayList<FpForestStations> forestStations = new ForestStationDb().getForestStations(offset, limit);
+		if (forestStations == null || forestStations.size() == 0) {
+			Response.status(Status.NO_CONTENT).build();
+		}
+		return forestStations;
+	}
+
+}

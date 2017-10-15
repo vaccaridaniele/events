@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Language" content="de">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="/data/LOs/801/favicon.ico" >
+
+  <!-- CSS imports non-minified for staging, minify before moving to production-->
+  <!-- <link rel="stylesheet" href="/spotsystem/css/gumby.hybrid.css"> -->
+
+  <link rel="stylesheet" href="/data/LOs/801/css/gumby.css">
+  <link rel="stylesheet" href="/data/LOs/801/css/app.css">
+  <link rel="stylesheet" href="/spotsystem/css/smoothness/jquery-ui-1.8.24.custom.css" type="text/css"/>
+
+  <script>window.jQuery || document.write('<script src="/spotsystem/js/jquery-1.8.2.min.js"><\/script>')</script>
+  <script src="/spotsystem/js/jquery-1.8.2-ui.min.js"></script>
+  <script src="/spotsystem/js/libs/gumby.min.js"></script>
+
+  <script src="/data/LOs/801/js/libs/modernizr-2.0.6.min.js"></script>
+  
+  <SCRIPT LANGUAGE="JavaScript">
+    var blur = 0;
+    var starttime = new Date();
+    var startclock = starttime.getTime();
+    var mytimeleft = 0;
+    var isMobile = 0;
+
+    function doTime() {
+      window.setTimeout( "doTime()", 1000 );
+      t = new Date();
+      time = Math.round((t.getTime() - starttime.getTime())/1000);
+      if (mytimeleft) {
+        time = mytimeleft - time;
+        if (time <= 0) {
+          window.location = "/spotsystem.php?res=popup3&uamip=10.170.16.1&uamport=3990&userurl=SspCry494m40544d4p2u434a4w466v4x274y256e434r2y4p25664y2o2q264w2o224w274v2r2b4w4r21554y4u2w2x29434p2y2z344w2m3s2o2e4v254g434t2y4o2563415q2s474p2o2242344v2q2d4q2t2y244y4a303t2l4c4m2x28414u224o2t2c4s2349476u4e4k4x5v573p2n2m5g4p4r5j4v5a45434e454o4z5p4q2n4q4m554b444t5z5n4y5i4f4s5q404l5u5g4c494k506r434k4r5g4g404g4k5e4m2k5j4h4f4p5d4q2o4q4u5y564k4y5p594x5";
+        }
+      }
+      if (time < 0) time = 0;
+      hours = (time - (time % 3600)) / 3600;
+      time = time - (hours * 3600);
+      mins = (time - (time % 60)) / 60;
+      secs = time - (mins * 60);
+      if (hours < 10) hours = "0" + hours;
+      if (mins < 10) mins = "0" + mins;
+      if (secs < 10) secs = "0" + secs;
+      title = "Online time: " + hours + ":" + mins + ":" + secs;
+      if (mytimeleft) {
+        title = "Remaining time: " + hours + ":" + mins + ":" + secs;
+      }
+      if(document.all || document.getElementById){
+         document.title = title;
+      }
+      else {
+        self.status = title;
+      }
+    }
+
+    function popUp(URL) {
+      if (self.name != "spotsystem_popup" && isMobile != 1) {
+                myx = screen.availWidth/2-470; 
+                myy = screen.availHeight/2-350;
+                myoptions = 'toolbar=no, directories=no, location=no, status=no, menubar=no, resizable=yes, scrollbars=yes, width=940, height=700, screenX='+myx+', screenY='+myy+', left='+myx+', top='+myy;
+                spotsystem_popup = window.open(URL, 'spotsystem_popup', myoptions);
+                window.focus(); 
+      } 
+    }
+
+    function doOnLoad(result, URL, userurl, redirurl, timeleft) {
+      if (timeleft) {
+        mytimeleft = timeleft;
+      }
+      if ((result == 1) && (self.name == "spotsystem_popup")) {
+        //doTime();
+      }
+      if ((result == 1) && (self.name != "spotsystem_popup") && isMobile != 1) {
+                myx = screen.availWidth/2-470;
+                myy = screen.availHeight/2-350;
+                myoptions = 'toolbar=no, directories=no, location=no, status=no, menubar=no, resizable=no, scrollbars=no, width=940, height=700, screenX='+myx+', screenY='+myy+', left='+myx+', top='+myy;
+                spotsystem_popup = window.open(URL, 'spotsystem_popup', myoptions);
+                window.focus();
+      }
+      if (((result == 2) || (result == 5)) && document.form1.UserName) {
+        document.form1.UserName.focus();
+      }
+      if ((result == 2) && (self.name != "spotsystem_popup") && isMobile != 1) {
+        myx = screen.availWidth/2-470;
+        myy = screen.availHeight/2-350;
+        myoptions = 'toolbar=no, directories=no, location=no, status=no, menubar=no, resizable=no, scrollbars=no, width=940, height=700, screenX='+myx+', screenY='+myy+', left='+myx+', top='+myy;
+        spotsystem_popup = window.open('', 'spotsystem_popup', myoptions);
+        spotsystem_popup.close();
+      }
+      if ((result == 1) && (self.name != "spotsystem_popup") && isMobile == 1 && 'http://download.jboss.org/jbosstools/configuration/ide-config.properties'!='' && 'http://download.jboss.org/jbosstools/configuration/ide-config.properties'!='http://logout.int.spotsystem.net/') {
+        setTimeout(window.location.replace('http://download.jboss.org/jbosstools/configuration/ide-config.properties') , 3000); // Forward to UserURL
+      }
+      if ((result == 12) && (self.name == "spotsystem_popup")) {
+        //doTime();
+        if ('http://download.jboss.org/jbosstools/configuration/ide-config.properties') {
+          opener.location = 'http://download.jboss.org/jbosstools/configuration/ide-config.properties';
+        }
+        else {
+          opener.location = "about:home";
+        }
+        self.focus();
+        blur = 0;
+      }
+      if ((result == 13) && (self.name == "spotsystem_popup")) {
+        self.focus();
+        blur = 1;
+      }
+
+                window.onbeforeunload = function (evt) {
+                        if ((result == 12) && (window.name.indexOf("system") == 4)) {
+                                if (window.opener == null || window.opener.closed == true) {
+                                	return "Logout?";
+                                } else {
+                                	return "Logout?";
+                                }
+                        }
+                }
+
+                window.onunload = function (evt) {
+                        if ((result == 12) && (window.name.indexOf("system") == 4)) {
+                                window.opener.location.href = "http://10.170.16.1:3990/logoff";
+                        }
+                }
+
+    }
+
+    function doOnBlur(result) {
+      if ((result == 12) && (self.name == "spotsystem_popup")) {
+        if (blur == 0) {
+          blur = 1;
+          self.focus();
+        }
+      }
+    }
+
+        function killBeforeUnload() {
+                window.onbeforeunload = function (evt) {
+                }
+        }
+
+        function killUnload() {
+                window.onunload = function (evt) {
+                }
+        }
+
+  </script>
+</head>
+<body onLoad="doOnLoad(5, '/spotsystem.php?res=popup2&uamip=10.170.16.1&uamport=3990&userurl=SspCry494m40544d4p2u434a4w466v4x274y256e434r2y4p25664y2o2q264w2o224w274v2r2b4w4r21554y4u2w2x29434p2y2z344w2m3s2o2e4v254g434t2y4o2563415q2s474p2o2242344v2q2d4q2t2y244y4a303t2l4c4m2x28414u224o2t2c4s2349476u4e4k4x5v573p2n2m5g4p4r5j4v5a45434e454o4z5p4q2n4q4m554b444t5z5n4y5i4f4s5q404l5u5g4c494k506r434k4r5g4g404g4k5e4m2k5j4h4f4p5d4q2o4q4u5y564k4y5p594x5&timeleft=&reply=','http://download.jboss.org/jbosstools/configuration/ide-config.properties', '', '');" onBlur="doOnBlur(5)">
+<div class="container">
+	<div class="row header">
+
+	<div class="columns six"><img src="/data/LOs/801/img/logo.png" gumby-retina /></div>
+	<div class="columns six">
+		<ul class="subnav">
+			<div class="row"><ul class="subnav"><li><a href="/spotsystem.php?res=notyet&uamip=10.170.16.1&uamport=3990&challenge=6ab2f112ff1622fcbc4d89a844f184c4&called=78-24-AF-85-C6-87&mac=B4-B6-76-20-58-23&ip=10.170.18.210&nasid=HS-170-016&sessionid=57a2f6db00000195&userurl=http%3a%2f%2fdownload.jboss.org%2fjbosstools%2fconfiguration%2fide-config.properties&md=7721B0B3B3C386D2C7FDFA9B985988D2&language=de">DE</a></li><li><a href="/spotsystem.php?res=notyet&uamip=10.170.16.1&uamport=3990&challenge=6ab2f112ff1622fcbc4d89a844f184c4&called=78-24-AF-85-C6-87&mac=B4-B6-76-20-58-23&ip=10.170.18.210&nasid=HS-170-016&sessionid=57a2f6db00000195&userurl=http%3a%2f%2fdownload.jboss.org%2fjbosstools%2fconfiguration%2fide-config.properties&md=7721B0B3B3C386D2C7FDFA9B985988D2&language=it">IT</a></li><li class="active"><a href="#">EN</a></li><li><a href="/spotsystem.php?res=notyet&uamip=10.170.16.1&uamport=3990&challenge=6ab2f112ff1622fcbc4d89a844f184c4&called=78-24-AF-85-C6-87&mac=B4-B6-76-20-58-23&ip=10.170.18.210&nasid=HS-170-016&sessionid=57a2f6db00000195&userurl=http%3a%2f%2fdownload.jboss.org%2fjbosstools%2fconfiguration%2fide-config.properties&md=7721B0B3B3C386D2C7FDFA9B985988D2&language=la">LA</a></li></ul></div>
+		</ul>
+	</div>
+		<!--[00:MainMenu:0:Main Menu Block]-->
+
+	</div> 
+
+	<div class="row">
+		Please log on ...
+	</div>
+	
+	<div class="row">
+		<div class="six columns">
+			<p><span  >Sie verbinden sich mittels eines abgesicherten Netzwerkes des S&#252;dtiroler Sanit&#228;tsbetrieb mit dem Internet. Diese Verbindung wird von Limitis GmbH mit Sitz 39035 Welsberg (BZ), Margarethenplatz 2 zur Verf&#252;gung gestellt.
+Eigent&#252;mer der Verarbeitung der Daten sind die Limits und der S&#252;dtiroler Sanit&#228;tsbetrieb. 
+F&#252;r den Zugang zum Internet werden einige Daten gespeichert: die MAC-Adresse ihres mobilen Ger&#228;tes, sowie einige Daten zum Navigationsverhalten im Internet. Diese Daten werden f&#252;r zwei Jahre aufbewahrt.
+Mit einem Klick auf Login, nehmen Sie genannte Bedingungen an.</span></p>
+			
+  <form name="form1" data-form="validate" method="post" action="/spotsystem.php">
+  <input type="hidden" name="challenge" value="6ab2f112ff1622fcbc4d89a844f184c4">
+  <input type="hidden" name="res" value="notyet">
+  <input type="hidden" name="uamip" value="10.170.16.1">
+  <input type="hidden" name="uamport" value="3990">
+  <input type="hidden" name="userurl" value="SspCry494m40544d4p2u434a4w466v4x274y256e434r2y4p25664y2o2q264w2o224w274v2r2b4w4r21554y4u2w2x29434p2y2z344w2m3s2o2e4v254g434t2y4o2563415q2s474p2o2242344v2q2d4q2t2y244y4a303t2l4c4m2x28414u224o2t2c4s2349476u4e4k4x5v573p2n2m5g4p4r5j4v5a45434e454o4z5p4q2n4q4m554b444t5z5n4y5i4f4s5q404l5u5g4c494k506r434k4r5g4g404g4k5e4m2k5j4h4f4p5d4q2o4q4u5y564k4y5p594x5">
+  <input type="hidden" name="UserName" value="170-016-0">
+		<p class="centertext">We provide you free internet access WITHOUT REGISTRATION. Only the address of your terminal is logged for security and statistical purposes.</p>
+		<input type="submit" class="primary btn" name="button" value="Login" onClick="javascript:popUp('/spotsystem.php?res=popup1&uamip=10.170.16.1&uamport=3990&userurl=SspCry494m40544d4p2u434a4w466v4x274y256e434r2y4p25664y2o2q264w2o224w274v2r2b4w4r21554y4u2w2x29434p2y2z344w2m3s2o2e4v254g434t2y4o2563415q2s474p2o2242344v2q2d4q2t2y244y4a303t2l4c4m2x28414u224o2t2c4s2349476u4e4k4x5v573p2n2m5g4p4r5j4v5a45434e454o4z5p4q2n4q4m554b444t5z5n4y5i4f4s5q404l5u5g4c494k506r434k4r5g4g404g4k5e4m2k5j4h4f4p5d4q2o4q4u5y564k4y5p594x5&reply=')">
+		</form>
+			
+		</div>
+		<div class="six columns">
+			<!--[00:FacebookFrame:0:Main left Form]-->
+			
+<div class="spot_info">
+<span style="font-weight:bold;">SABES</span></br>
+        <p><img src="/webdata/gallery/standortlogo/170-016.JPG" alt="SABES"/></p>
+       <p><a href="http://www.sabes.it" target=""_blank"">http://www.sabes.it</a></p>
+</div>
+		</div>
+	 </div>
+
+	 <div class="row">
+		<!-- LoginVersion: 2016.07.29 -->
+	</div>
+
+</div>
+
+</body>
+<!--
+	<?xml version=”1.0” encoding=”UTF-8”?>
+	<WISPAccessGatewayParam xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”
+	  xsi:noNamespaceSchemaLocation=”http://www.acmewisp.com/WISPAccessGatewayParam.xsd”>
+	  <Redirect>
+		<AccessProcedure>1.0</AccessProcedure>
+		<AccessLocation>SpotSystem</AccessLocation>
+		<LocationName>SABES</LocationName>
+		<LoginURL>https://login.spotsystem.net/spotsystem.php</LoginURL>
+		<MessageType>100</MessageType>
+		<ResponseCode>0</ResponseCode>
+	  </Redirect>
+	</WISPAccessGatewayParam>
+-->
+</html>

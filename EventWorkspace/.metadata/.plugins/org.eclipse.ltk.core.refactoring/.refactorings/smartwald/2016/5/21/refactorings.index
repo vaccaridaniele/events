@@ -1,0 +1,49 @@
+1464015879429	Delete element
+1464015993148	Copy compilation unit
+1464016196955	Copy compilation unit
+1464016244896	Rename method 'uploadWaldArbeit'
+1464016262264	Rename local variable 'importWaldArbeit'
+1464016325071	Delete element
+1464016337103	Delete element
+1464016350897	Delete element
+1464016360428	Delete element
+1464016374105	Delete element
+1464016435938	Copy compilation unit
+1464016464189	Rename type 'WaldArbeit2'
+1464016517565	Rename field 'wblBezeichnung'
+1464016532104	Rename field 'wblKodex'
+1464016545170	Rename field 'abt'
+1464016560448	Rename field 'particle_id'
+1464016580262	Rename field 'leistungsKategorie'
+1464016594262	Rename field 'leistung'
+1464016616908	Rename field 'jahr'
+1464016638315	Rename field 'stunden'
+1464016662826	Rename field 'euroProStunde'
+1464016689707	Rename field 'gesamtkostenDouble'
+1464016736526	Rename field 'versicherung'
+1464016778602	Rename field 'telepass'
+1464016802515	Rename field 'agipcard'
+1464067673576	Rename local variable 'waldArbeit'
+1464072064118	Rename method 'scriviForesteWork'
+1464074550393	Copy compilation unit
+1464074589553	Copy compilation unit
+1464075694422	Delete elements
+1464075785943	Rename local variable 'transportUnit'
+1464077063007	Delete elements
+1464077561730	Rename method 'scriviTransportUnit'
+1464077581243	Rename local variable 'transportUnitCost'
+1464077776571	Rename method 'scriviTransportUnit'
+1464077839803	Copy compilation unit
+1464080995563	Delete element
+1464081003175	Delete element
+1464081050122	Delete element
+1464081157485	Rename field 'erroriList'
+1464084333380	Delete element
+1464190075131	Copy compilation unit
+1464256922910	Copy compilation unit
+1464257067381	Copy compilation unit
+1464257243122	Copy compilation unit
+1464355942699	Copy package
+1464359717167	Copy compilation unit
+1464359804722	Copy compilation unit
+1464359905977	Copy compilation unit

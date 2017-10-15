@@ -1,0 +1,26 @@
+package org.e2d.smartwald.rest;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+
+import org.e2d.smartwald.pojo.Heroes;
+
+@Path("/heroeses")
+@Produces("application/json")
+@Consumes("application/json")
+public class HeroesEndpoint {
+
+	@GET
+	public List<Heroes> listAll(@QueryParam("start") final Integer startPosition,
+			@QueryParam("max") final Integer maxResult) {
+		//TODO: retrieve the heroeses 
+		final List<Heroes> heroeses = null;
+		return heroeses;
+	}
+
+}

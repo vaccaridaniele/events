@@ -1,0 +1,27 @@
+1469457184588	Delete element
+1469458514018	Delete element
+1469461096008	Delete elements
+1469546871113	Rename local variable 'maxResult'
+1469546959845	Rename local variable 'startPosition'
+1469630691247	Rename type 'FpForestStationsEndpoint'
+1469630828921	Rename type 'FpEconomicPlanEndpoint'
+1469630835836	Rename type 'FpParticleEndpoint'
+1469630845465	Rename type 'FpProtocolEndpoint'
+1469632056264	Extract method 'setRelations'
+1469632714408	Delete elements
+1469632939651	Delete elements
+1469633446752	Delete elements
+1469633943057	Delete elements
+1469634126112	Delete elements
+1469634174724	Delete elements
+1469690219764	Copy compilation unit
+1469690554359	Rename local variable 'fpCost'
+1469690561242	Rename local variable 'Cost'
+1469690950881	Rename local variable 'offset'
+1469690964788	Rename local variable 'limit'
+1469690970462	Rename local variable 'axResults'
+1469691017186	Rename method 'getForestStations'
+1469691028288	Rename method 'getForesStation'
+1469691066944	Rename local variable 'offset'
+1469709887353	Delete elements
+1469717031302	Delete element

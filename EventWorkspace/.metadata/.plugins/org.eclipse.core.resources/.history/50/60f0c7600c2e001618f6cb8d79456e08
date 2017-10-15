@@ -1,0 +1,60 @@
+package org.e2d.smartfarm.util;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+import org.apache.log4j.Logger;
+
+public class ConnectionUtil {
+
+	static Logger logger = Logger.getLogger(ConnectionUtil.class);
+
+	public static DataSource ds = null;
+
+	public Connection getUniJdbcConnection()
+			throws SQLException, ClassNotFoundException, FileNotFoundException, IOException {
+		String host = "jdbc:postgresql://localhost:5432/aefis";
+		String username = "postgres";
+		String password = "postgres";
+		String driver = "org.postgresql.Driver";
+		Class.forName(driver);
+		Connection connection = DriverManager.getConnection(host, username, password);
+		return connection;
+	}
+
+	public Connection getJdbcConnection()
+			throws SQLException, ClassNotFoundException, FileNotFoundException, IOException {
+		logger.debug("CREAZIONE CONNESSIONE JDBC");
+		Connection connection;
+		Properties prop = new Properties();
+		prop.load(new FileInputStream(System.getProperty("user.home") + "/smartfarm.cfg"));
+		String host = prop.getProperty("host").toString().trim();
+		String username = prop.getProperty("username").toString().trim();
+		String password = prop.getProperty("password").toString().trim();
+		String driver = prop.getProperty("driver").toString().trim();
+		Class.forName(driver);
+		connection = DriverManager.getConnection(host, username, password);
+		logger.debug("CONNESSIONE JDBC CREATA");
+		return connection;
+	}
+
+	public static Connection getDataSourceConnection() throws Exception {
+		if (ds == null) {
+			logger.debug("CREAZIONE DATASOURCE");
+			Context initContext = new InitialContext();
+			Context envContext = (Context) initContext.lookup("java:/comp/env");
+			ds = (DataSource) envContext.lookup("jdbc/smartfarm");
+			logger.debug("DATASOURCE CREATO");
+		}
+		return ds.getConnection();
+	}
+}

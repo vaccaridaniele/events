@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-ago-2016 10.54.54 by Hibernate Tools 4.3.4.Final -->
+<hibernate-mapping>
+    <class name="org.e2d.smartfarm.pojo.SfUsers" table="sf_users" optimistic-lock="version">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="sequence">
+                <param name="sequence">sf_users_id_seq</param>
+            </generator>
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="60">
+                <comment>Name</comment>
+            </column>
+        </property>
+        <property name="surname" type="string">
+            <column name="surname" length="60">
+                <comment>Surname</comment>
+            </column>
+        </property>
+        <property name="LName" type="string">
+            <column name="l_name" length="15" not-null="true" unique="true">
+                <comment>Login name</comment>
+            </column>
+        </property>
+        <property name="LPsw" type="string">
+            <column name="l_psw" length="15" not-null="true">
+                <comment>Login password</comment>
+            </column>
+        </property>
+        <property name="remarks" type="string">
+            <column name="remarks" length="300">
+                <comment>Remarks</comment>
+            </column>
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="30">
+                <comment>E-mail</comment>
+            </column>
+        </property>
+        <property name="cuser" type="string">
+            <column name="cuser" length="30" not-null="true">
+                <comment>Creation user</comment>
+            </column>
+        </property>
+        <property name="cdate" type="timestamp">
+            <column name="cdate" length="22" not-null="true">
+                <comment>Creation datetime</comment>
+            </column>
+        </property>
+        <property name="muser" type="string">
+            <column name="muser" length="30">
+                <comment>Last change user</comment>
+            </column>
+        </property>
+        <property name="mdate" type="timestamp">
+            <column name="mdate" length="22">
+                <comment>Last change datetime</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

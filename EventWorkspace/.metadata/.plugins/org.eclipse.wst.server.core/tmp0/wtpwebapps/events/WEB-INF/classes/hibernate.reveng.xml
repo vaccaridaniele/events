@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<type-mapping>
+		<sql-type jdbc-type="NUMERIC" hibernate-type="java.lang.Double" />
+		<sql-type jdbc-type="INTEGER" hibernate-type="java.lang.Integer" />
+	</type-mapping>
+	<table-filter match-name="sf_users"></table-filter>
+	<table-filter match-name="sf_raw_data"></table-filter>
+	<table-filter match-name="sf_farms"></table-filter>
+	<table-filter match-name="sf_working_sessions"></table-filter>
+	<table-filter match-name="sf_errors_log"></table-filter>
+
+	<table name="sf_errors_log">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">errors_log_id_seq</param>
+			</generator>
+		</primary-key>
+	</table>
+
+	<table name="sf_working_sessions">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">
+					"sf_working_sessions_id_seq"
+				</param>
+			</generator>
+		</primary-key>
+	</table>
+
+	<table name="sf_raw_data">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">sf_raw_data_id_seq</param>
+			</generator>
+		</primary-key>
+	</table>
+
+	<table name="sf_users">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">sf_users_id_seq</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="sf_farms">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">farms_id_seq</param>
+			</generator>
+		</primary-key>
+	</table>
+
+</hibernate-reverse-engineering>

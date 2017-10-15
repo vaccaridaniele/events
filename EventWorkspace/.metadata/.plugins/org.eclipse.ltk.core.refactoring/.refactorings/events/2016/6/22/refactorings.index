@@ -1,0 +1,23 @@
+1464771454059	Rename type 'Data'
+1464775892928	Rename local variable 'received'
+1464775972004	Rename local variable 'receivedString'
+1464775997503	Rename local variable 'myObjects'
+1464776007416	Rename local variable 'json'
+1464776216011	Extract method 'scriviErrorsLog'
+1464778207375	Rename method 'getDatiErrati'
+1464785888641	Extract method 'isValidDate'
+1464785964020	Rename local variable 'ddate'
+1464786074693	Extract method 'isValidTime'
+1464793737085	Delete element
+1464794093431	Delete element
+1464794184473	Delete element
+1464794189654	Copy source folder
+1464794213655	Delete element
+1464794281473	Delete element
+1464794540718	Move compilation unit
+1464794596702	Copy compilation unit
+1464794774798	Rename type 'SensorSimulator'
+1464794797039	Rename type 'RestClientTest'
+1464794815945	Rename method 'testSendEmail'
+1464797116292	Rename local variable 'd'
+1464962588817	Rename local variable 't'

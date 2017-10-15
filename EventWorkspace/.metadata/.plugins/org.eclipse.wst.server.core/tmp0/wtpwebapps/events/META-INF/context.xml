@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- The contents of this file will be loaded for each web application -->
+<Context path="/JNDI">
+
+<!-- 	<Resource name="jdbc/events" auth="Container" type="javax.sql.DataSource"
+		username="webadmin" password="XDHlia17606" driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://postgres149745-test-events.jelastic.dogado.eu/events" /> -->
+
+	<Resource name="jdbc/events" auth="Container" type="javax.sql.DataSource" 
+		username="postgres" password="postgres" driverClassName="org.postgresql.Driver" 
+		url="jdbc:postgresql://localhost:5432/events" />
+
+	<!-- Default set of monitored resources. If one of these changes, the -->
+	<!-- web application will be reloaded. -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+	<!-- Uncomment this to disable session persistence across Tomcat restarts -->
+	<!-- <Manager pathname="" /> -->
+
+	<!-- Uncomment this to enable Comet connection tacking (provides events 
+		on session expiration as well as webapp lifecycle) -->
+	<!-- <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" 
+		/> -->
+</Context>

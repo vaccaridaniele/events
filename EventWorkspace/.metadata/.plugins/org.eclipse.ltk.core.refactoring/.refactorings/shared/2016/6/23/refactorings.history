@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.e2d.smartwald.rest.SecurityFilter&apos; to &apos;RequestFilter&apos;&#x0D;&#x0A;- Original project: &apos;shared&apos;&#x0D;&#x0A;- Original element: &apos;org.e2d.smartwald.rest.SecurityFilter&apos;&#x0D;&#x0A;- Renamed element: &apos;org.e2d.smartwald.rest.RequestFilter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SecurityFilter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;org.e2d.smartwald.rest{SecurityFilter.java[SecurityFilter" matchStrategy="1" name="RequestFilter" qualified="false" references="true" similarDeclarations="false" stamp="1465303449495" textual="false" version="1.0"/>
+</session>

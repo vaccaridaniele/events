@@ -1,0 +1,18 @@
+1465214973238	Move compilation unit
+1465216086840	Rename method 'preparePost'
+1465216348589	Rename method 'getStationByDesc'
+1465216661060	Rename method 'testSendData'
+1465216974902	Rename type 'DataLoggerBean'
+1465216990226	Move compilation unit
+1465218554182	Delete element
+1465291082939	Extract method 'checkUser'
+1465291132350	Rename method 'checkUser'
+1465293776100	Rename method 'checkSensorUser'
+1465378992282	Rename local variable 'secons'
+1465469085064	Delete element
+1465470531260	Delete elements
+1465471149405	Delete element
+1465471166964	Move compilation unit
+1465471238155	Move compilation unit
+1465471260354	Move compilation unit
+1465471265895	Delete element

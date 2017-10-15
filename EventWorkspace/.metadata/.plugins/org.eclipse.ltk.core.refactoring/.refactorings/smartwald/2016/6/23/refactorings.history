@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;conn&apos; in &apos;org.e2d.smartwald.util.ImportStehen.controllaRighe(...)&apos; to &apos;connectionUtil&apos;&#x0D;&#x0A;- Original project: &apos;smartwald&apos;&#x0D;&#x0A;- Original element: &apos;org.e2d.smartwald.util.ImportStehen.controllaRighe(ArrayList&lt;Stehe&gt;).conn&apos;&#x0D;&#x0A;- Renamed element: &apos;conn&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;conn&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;org.e2d.smartwald.util{ImportStehen.java[ImportStehen~controllaRighe~QArrayList\&lt;QStehe;&gt;;@conn!6012!6054!6027!6030!QConnectionUtil;!0!false" name="connectionUtil" references="true" stamp="1465216247544" version="1.0"/>
+</session>

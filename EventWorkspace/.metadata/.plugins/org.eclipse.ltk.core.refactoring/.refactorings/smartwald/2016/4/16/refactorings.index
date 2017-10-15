@@ -1,0 +1,46 @@
+1461052597009	Rename type 'UploadRedas'
+1461052658677	Rename type 'UploadRedasTest'
+1461052694284	Rename type 'UploadSAP'
+1461052709584	Rename type 'UploadStehen'
+1461052745866	Rename type 'UploadStehenTest'
+1461052757844	Rename type 'UploarSAPTest'
+1461155853272	Copy compilation unit
+1461168924689	Copy compilation unit
+1461168957195	Delete element
+1461169237960	Delete element
+1461169246630	Delete element
+1461169297742	Copy compilation unit
+1461169330770	Delete element
+1461169400414	Delete element
+1461244500288	Change method 'getDataFromCsv'
+1461244765942	Rename method 'uploadDatiRedas'
+1461244780095	Rename method 'testUploadDatiRedas'
+1461246951109	Copy compilation unit
+1461248581956	Delete element
+1461249811155	Rename method 'controllaRiga'
+1461250678417	Rename field 'fost_id'
+1461250728477	Rename field 'id'
+1461326860778	Rename field 'prestazione_id'
+1461328963265	Copy file
+1461329638859	Delete element
+1461329653116	Delete element
+1461329874991	Copy file
+1461330779261	Copy package
+1461330935661	Copy method
+1461330948439	Copy method
+1461330957744	Copy method
+1461330973205	Copy compilation unit
+1461331047331	Copy compilation units
+1461331081022	Copy file
+1461331357599	Copy file
+1461333707689	Copy file
+1461335827849	Copy file
+1461335896793	Delete element
+1461335901454	Delete element
+1461335929919	Copy file
+1461335939240	Copy file
+1461336105111	Delete element
+1461336312187	Delete element
+1461336338462	Delete elements
+1461339995576	Extract method 'getCellStringValue'
+1461340147791	Rename method 'getCellStringValue'

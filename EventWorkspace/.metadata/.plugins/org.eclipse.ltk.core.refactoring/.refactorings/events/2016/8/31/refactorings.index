@@ -1,0 +1,47 @@
+1470131718299	Delete element
+1470131744331	Delete element
+1470131767391	Delete element
+1470150722767	Change method 'listSessions'
+1470150803269	Change method 'dataSession'
+1470151812537	Rename local variable 'wose_identnr'
+1470207820443	Rename local variable 'fix_total'
+1470207906241	Rename local variable 'ws_id'
+1470207988028	Change method 'getListsessiondata'
+1470208011823	Change method 'getListsessions'
+1470212423715	Copy compilation unit
+1470212438237	Copy file
+1470213781364	Rename type 'MachineSessionEndpoint'
+1470213789564	Rename type 'SfWorkingSessionsEndpoint'
+1470213985766	Rename type 'MachineSessionsDb'
+1470214360439	Delete elements
+1470214420576	Delete element
+1470214949114	Delete element
+1470216073340	Delete element
+1470216085195	Copy compilation unit
+1470229391582	Rename type 'WorkingSessionsEndpoint'
+1470229949368	Rename local variable 'wose_identnr'
+1470230276097	Rename method 'getSelectWorkinSessions'
+1470231371341	Rename method 'getListsessions'
+1470231391868	Rename method 'getListsessionData'
+1470231413931	Rename method 'getListsessiondata'
+1470231445999	Change method 'getSessionCenter'
+1470231525302	Rename method 'getMapCenterPoints'
+1470231941542	Rename local variable 'wsId'
+1470232973251	Rename method 'getSelectWorkinSessions'
+1470238096183	Rename method 'getSessionPoint'
+1470238115988	Rename method 'getSessionPoints'
+1470238120968	Rename method 'setSessionPoint'
+1470238149337	Rename field 'sessionPoint'
+1470294621086	Rename local variable 'messagio'
+1470295424454	Rename local variable 'wose_identnr'
+1470299124713	Delete element
+1470302399637	Delete element
+1470385370419	Delete elements
+1470386146953	Delete element
+1470387858133	Copy compilation unit
+1470388348024	Copy compilation unit
+1470389682539	Copy compilation unit
+1470389701792	Copy compilation unit
+1470389720024	Copy compilation unit
+1470389747570	Copy compilation unit
+1470389825120	Copy compilation unit

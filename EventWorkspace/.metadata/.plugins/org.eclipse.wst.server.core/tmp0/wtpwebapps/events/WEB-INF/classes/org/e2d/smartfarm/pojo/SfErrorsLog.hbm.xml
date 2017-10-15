@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-ago-2016 10.54.54 by Hibernate Tools 4.3.4.Final -->
+<hibernate-mapping>
+    <class name="org.e2d.smartfarm.pojo.SfErrorsLog" table="sf_errors_log" optimistic-lock="version">
+        <comment>errori che si possono verificare: - trasmissione dal dispositivo di stringa json malformata - verifica consistenza dei dati fondamentali - inserimento dei dati
+        nel DB (codici di errore nel trigger di public.fm_incoming_data)</comment>
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="sequence">
+                <param name="sequence">errors_log_id_seq</param>
+            </generator>
+        </id>
+        <property name="json" type="string">
+            <column name="json">
+                <comment>stringa json spedita dal dispositivo se causa errore</comment>
+            </column>
+        </property>
+        <property name="description" type="string">
+            <column name="description">
+                <comment>descrizione dell'errore</comment>
+            </column>
+        </property>
+        <property name="email" type="string">
+            <column name="email">
+                <comment>email destinatario del messaggio</comment>
+            </column>
+        </property>
+        <property name="date" type="timestamp">
+            <column name="date" length="22">
+                <comment>data acquisizione record</comment>
+            </column>
+        </property>
+        <property name="httpStatus" type="java.lang.Short">
+            <column name="http_status">
+                <comment>risposta del server</comment>
+            </column>
+        </property>
+        <property name="notified" type="java.lang.Integer">
+            <column name="notified" not-null="true">
+                <comment>0 non notificato 1 notificato</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

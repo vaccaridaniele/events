@@ -1,0 +1,7 @@
+CloneWizard_ImportProjects=true
+CompareTreeView_compare_mode=true
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>.</message>\r\n<message>refactoring classi inferenza</message>\r\n<message>refactorin classi inferenza</message>\r\n<message>Testata restituzione dati mappa sessione</message>\r\n<message>aggiustata classe simulatore con nuova tabella</message>\r\n<message>Testato datalogger per nuove tabelle</message>\r\n<message>Inserito servizio per restituzione dati mappa</message>\r\n<message>ripulito codice</message>\r\n<message>ripulito codice non utilizzato</message>\r\n<message>corretta classe</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
+show_initial_config_dialog=false

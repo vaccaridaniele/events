@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="4">\r\n<system/>\r\n<external location\="C\:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="C\:\\." name\="BrowserSim"/>\r\n<external location\="C\:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" name\="Chrome"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/smartwald/index.html|*|https\://developer.jboss.org/blogs/weekly-editorial/2016/05/06/this-week-in-jboss-6th-may-2016-a-helping-hand-is-needed|*|http\://localhost\:8080/smartwald/|*|

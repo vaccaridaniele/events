@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.j2ee.server:smartwald" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:smartfarm" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:monalisa" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:bus" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:events" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:events" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:api" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:shared" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:monalisa-portal" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:smatfarm" serverId="Tomcat v8.0 Server at localhost"/>
+</modules>

@@ -1,0 +1,12 @@
+package org.daniele.examples;
+
+public class TypeInterfaceExample {
+
+	public static void main(String[] args) {
+
+	}
+
+	interface StringLenghtLambda {
+		int getLenght(String s);
+	}
+}

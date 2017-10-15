@@ -1,0 +1,95 @@
+1464184710541	Delete elements
+1464184715622	Delete element
+1464184727089	Delete element
+1464184761088	Delete element
+1464184765743	Delete element
+1464190272431	Rename type 'HibernateUtil'
+1464190521818	Rename local variable 'value'
+1464192710914	Rename local variable 'value'
+1464256987190	Move compilation unit
+1464257136211	Rename package 'org.e2d.smartwald.mypojo'
+1464263935335	Delete element
+1464263938504	Delete element
+1464264737530	Delete element
+1464264757375	Delete element
+1464264765171	Delete element
+1464264811521	Delete element
+1464265358739	Delete element
+1464265704587	Delete element
+1464265747998	Delete element
+1464265799205	Delete element
+1464266088030	Delete element
+1464266142559	Delete element
+1464266211004	Delete element
+1464266219100	Delete element
+1464266268789	Delete element
+1464266318721	Delete element
+1464266345101	Delete element
+1464266369650	Delete element
+1464266388990	Delete element
+1464266393184	Delete element
+1464266487779	Delete element
+1464267121804	Delete element
+1464334062368	Copy compilation unit
+1464334144915	Rename type 'Data2'
+1464335225931	Delete element
+1464335242968	Delete element
+1464335245103	Delete element
+1464335251256	Delete element
+1464335256291	Delete element
+1464335259372	Delete element
+1464335261247	Delete element
+1464335270293	Delete element
+1464335272861	Delete element
+1464335278023	Delete element
+1464335307966	Delete element
+1464335345526	Delete element
+1464335361711	Delete element
+1464335364591	Delete element
+1464335368424	Delete element
+1464339749817	Delete element
+1464339789743	Delete element
+1464355968337	Delete elements
+1464355971677	Delete element
+1464356459652	Delete element
+1464358645357	Delete element
+1464359139174	Move compilation units
+1464359143546	Delete element
+1464359175995	Delete element
+1464359317974	Rename package 'com.monalisa.datalogger'
+1464359480097	Move compilation unit
+1464359485612	Delete element
+1464359528711	Move compilation unit
+1464359536396	Move compilation unit
+1464359549884	Delete element
+1464359554082	Delete element
+1464359561658	Move compilation unit
+1464359567149	Delete element
+1464359596593	Rename type 'DateTimeValidator'
+1464359609277	Rename type 'JdbcService'
+1464359616459	Rename type 'Log'
+1464359625084	Rename type 'LogFilePath'
+1464360582073	Delete element
+1464360690798	Move compilation units
+1464360696325	Delete element
+1464360711104	Rename package 'org.ed2.smartfarm.datalogger'
+1464360773508	Move compilation unit
+1464360785694	Delete element
+1464360788343	Delete element
+1464402728301	Rename type 'SecurityFilter'
+1464402800550	Rename type 'SmartWaldFilter'
+1464403525444	Delete element
+1464403869604	Rename field 'logger4j'
+1464405647094	Rename field 'fos'
+1464406087114	Rename local variable 'req'
+1464406111715	Extract method 'writeRequestData'
+1464406138935	Rename method 'writeRequestData'
+1464413456206	Delete element
+1464413861212	Extract method 'getPsData'
+1464414766732	Extract method 'setPsData'
+1464414826934	Extract method 'getRsData'
+1464414895758	Extract method 'setParamsData'
+1464414982120	Rename type 'SmartWaldRestFilter'
+1464500973388	Rename type 'SmartFarmRestFilter'
+1464501239886	Encapsulate field 'REQUEST_ID'
+1464501314127	Rename type 'SmartFarmUtil'

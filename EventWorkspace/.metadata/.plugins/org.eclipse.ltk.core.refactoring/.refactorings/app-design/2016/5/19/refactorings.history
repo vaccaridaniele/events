@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;RestfullServices/pom.xml&apos; to &apos;pom_old.xml&apos;" description="Rename resource &apos;pom.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pom.xml" name="pom_old.xml" stamp="1462947897016" updateReferences="true"/>&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;RestfullServices&apos;&#x0D;&#x0A;- Original project: &apos;RestfullServices&apos;&#x0D;&#x0A;- Original element: &apos;pom_old.xml&apos;" description="Delete element" element1="pom_old.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1462948006361" subPackages="false" version="1.0"/>
+</session>

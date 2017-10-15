@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="909" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="505" key="DIALOG_HEIGHT"/>
+		<item value="51" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\daniele\Documents\Lavoro\Events\EventWorkspace"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\EventWorkspace"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\workspace"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\shared"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\monalisa-monit"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\monalisa-portal"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java"/>
+			<item value="D:\Lavoro\E2D\dev\progetti java"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\smartfarm"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\app-design"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\aefis"/>
+			<item value="c:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\SmarWwald\"/>
+			<item value="c:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\RestfullServices\"/>
+			<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\foreste"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="C:\Users\daniele\Documents\Lavoro\E2D\dev\progetti java\smartfarm" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="DialogMarkerPropertiesDialogSettings">
+		<item value="723" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="283" key="DIALOG_HEIGHT"/>
+		<item value="287" key="DIALOG_X_ORIGIN"/>
+		<item value="160" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="TaskPropertiesDialogSettings">
+		<item value="723" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="283" key="DIALOG_HEIGHT"/>
+		<item value="287" key="DIALOG_X_ORIGIN"/>
+		<item value="180" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="534" key="DIALOG_X_ORIGIN"/>
+		<item value="209" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="486" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="471" key="DIALOG_HEIGHT"/>
+			<item value="348" key="DIALOG_X_ORIGIN"/>
+			<item value="35" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

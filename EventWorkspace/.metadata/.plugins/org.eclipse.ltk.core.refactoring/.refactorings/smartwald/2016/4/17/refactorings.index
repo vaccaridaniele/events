@@ -1,0 +1,54 @@
+1461682955973	Rename method 'scriviDatiRedas'
+1461856993141	Rename local variable 'stehenCsv'
+1461919580806	Rename local variable 'redasCsvArray'
+1461919629244	Rename type 'Stehen'
+1461919643845	Rename local variable 'redasCsv'
+1461919913901	Rename field 'idEsbosco'
+1461919948126	Rename field 'liste'
+1461919999114	Rename field 'particella'
+1461920017466	Rename field 'stazione'
+1461920028245	Rename field 'anno'
+1461920080300	Rename field 'fostId'
+1461920127071	Rename field 'motivo'
+1461920161162	Rename field 'superficie'
+1461920185126	Rename field 'esbosco'
+1461920858914	Rename field 'yarding'
+1461920869427	Rename field 'yardingId'
+1461921065138	Rename local variable 'stehen'
+1461921088110	Rename field 'distanza'
+1461921122933	Rename field 'pendenza'
+1461921186106	Rename field 'rinnovazione'
+1461921381650	Rename field 'percentualeRami'
+1461921435172	Rename field 'pezzi'
+1461921615982	Rename field 'metriCubi'
+1461921743621	Rename method 'controllaRiga'
+1461924549690	Delete element
+1461924552283	Delete element
+1461924557107	Delete element
+1461924558623	Delete element
+1461924563274	Delete elements
+1461924567609	Delete elements
+1461924679157	Copy compilation unit
+1461924794612	Delete elements
+1461924799486	Delete elements
+1461926987748	Rename local variable 'string'
+1461927416622	Rename field 'errore'
+1461928545562	Rename local variable 'import_id'
+1461933067946	Rename local variable 'yardingType'
+1461942390484	Delete element
+1461942393165	Delete element
+1461942395464	Delete element
+1461942397932	Delete element
+1461942418349	Rename type 'ImportSeqUtili'
+1461942445971	Rename type 'FcUsersDb'
+1461942670466	Rename field 'errori'
+1461943361383	Extract method 'getStationByDesc'
+1461943384024	Pull up 'getStationByDesc()' to 'ImportDati'
+1461943448743	Extract method 'getYardingReasonByDesc'
+1461943460443	Pull up 'getYardingReasonByDesc()' to 'ImportDati'
+1461943492073	Extract method 'getYardingTypeByDesc'
+1461943502302	Pull up 'getYardingTypeByDesc()' to 'ImportDati'
+1461943540993	Extract method 'selectRinnovationByDesc'
+1461943550646	Pull up 'selectRinnovationByDesc()' to 'ImportDati'
+1461943616170	Pull up 'errori' to 'ImportDati'
+1461943890575	Pull up 'removeSpace(String)' to 'ImportDati'

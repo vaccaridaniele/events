@@ -1,0 +1,19 @@
+1462175738279	Pull up 'getParticle(String)' to 'ImportDati'
+1462266719389	Delete element
+1462269495744	Delete element
+1462271313382	Delete element
+1462271842774	Delete element
+1462286415156	Delete element
+1462370487605	Delete elements
+1462370618128	Rename compilation unit 'FpHammerBlowEndpoint.java'
+1462371624318	Pull up 'controllaWaldUnit(ArrayList<WaldUnit>)' to 'ImportDati'
+1462452062489	Rename local variable 'ps1'
+1462461031063	Rename method 'controllaWaldUnit'
+1462462468030	Rename method 'controllaParticelle'
+1462541168339	Delete element
+1462541333041	Rename local variable 'wblCodex'
+1462542087680	Pull up 'scriviParticelleDaStehen(ArrayList<Stehe>)' to 'ImportDati'
+1462542123973	Rename method 'scriviParticelle'
+1462543827000	Rename method 'scriviParticella'
+1462544036788	Rename local variable 'particle'
+1462544064321	Rename local variable 'fpeconomicPlan'
